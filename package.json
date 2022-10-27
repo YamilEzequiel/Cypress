@@ -1,0 +1,15 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "component": "cypress open --browser chrome --component",
+    "e2e": "cypress open --browser chrome --e2e"
+  },
+  "author": "Yamil Lazzari",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  }
+}
